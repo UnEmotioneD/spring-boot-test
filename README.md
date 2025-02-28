@@ -1,12 +1,5 @@
 # Spring boot
 
-- [workspace 설정](#workspace-설정)
-- [project 생성]()
-- [project 설정]()
-- [실행]()
-
----
-
 ## Spring boot framework 기본 개념
 
 스프링 부트 정의 및 특징
@@ -46,7 +39,7 @@ SNAPSHOT : 개발 진행 중
 
 ---
 
-## Workspace 설정
+## Workspace settings
 
 ### Menubar / Window / Preferences 설정
 

@@ -4,7 +4,7 @@ import jakarta.servlet.*;
 
 import java.io.IOException;
 
-//패키지 경로 주의
+// 패키지 경로 주의
 public class EncodingFilter implements Filter {
 
     @Override
