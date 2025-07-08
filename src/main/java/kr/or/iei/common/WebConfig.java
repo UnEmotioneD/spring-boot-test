@@ -12,7 +12,7 @@ public class WebConfig implements WebMvcConfigurer {
     /*
      * WebMvcConfigurer : Spring MVC 설정을 사용자 정의할 수 있음. 인터페이스 내부에 메서드는 접근제어지시자가
      * default 로 작성되어 있기 때문에, 원하는 메서드만 선택적으로 오버라이딩. URL 매핑 View, Filter, WebSocket,
-     * Interceptor 등등 원하는 설정에 따라 다양한 인터페이스의 메소드를 오버라이딩.
+     * Intercepter 등등 원하는 설정에 따라 다양한 인터페이스의 메소드를 오버라이딩.
      */
 
     // 필터 설정
