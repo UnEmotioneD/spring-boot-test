@@ -1,7 +1,6 @@
 package kr.or.iei.member.model.vo;
 
 public class Member {
-
     private String memberId;
     private String memberPw;
 
@@ -29,5 +28,4 @@ public class Member {
     public void setMemberPw(String memberPw) {
         this.memberPw = memberPw;
     }
-
 }

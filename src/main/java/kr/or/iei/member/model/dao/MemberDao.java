@@ -8,7 +8,5 @@ import java.util.ArrayList;
 // Mapper
 @Mapper
 public interface MemberDao { // interface 로 생성
-
     public ArrayList<Member> getList();
-
 }

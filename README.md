@@ -7,7 +7,7 @@
 - 정의 : 스프링 프레임워크를 기반으로 애플리케이션 개발을 간소화하고, 빠르게 만들 수 있도록 도와주는 개발 도구
 - 대표 특징
   1. 자동 설정 : 대부분의 설정 작업을 자동으로 설치해줌
-  2. 내장 서버 : Tomcat을 내장하고 있어서 별도의 WAS 설치 필요 없음 (레거시할 때 톰캣 9버전 설치했쥬? 부트에서는 설치X)
+  2. 내장 서버 : Tomcat을 내장하고 있어서 별도의 WAS 설치 필요 없음
   3. 편리한 의존성 추가 : 자주 사용되는 라이브러리와 의존성을 묶어서 제공 (pom.xml에 수동 추가했던거 프로젝트 생성할 때 체크박스만으로 추가 가능)
      - 레거시 프로젝트에 비해서 설정하기가 매우 편리하다
 
@@ -57,7 +57,6 @@ SNAPSHOT : 개발 진행 중
    - XML &rarr; XML Files
 4. Window &rarr; Show View에서 필요 탭 추가 (Package Explorer, Problems, Console, Search, OutLine)
 5. Menubar &rarr; Help &rarr; Eclipse Market Place
-
    - `Eclipse Enterprise Java and Web Developer Tools 3.36` 설치
 
    - JSP 생성 및 아래 Mybatis 관련 설정을 위한 Kit 다운로드 (부트에서는 JSP가 기본적으로 제공되지 않음)
@@ -82,7 +81,6 @@ SNAPSHOT : 개발 진행 중
 
 1. 새 프로젝트 생성 `Spring Starter Project` 클릭
 2. 프로젝트 생성 기본 정보 입력
-
    - Name : 프로젝트 이름
    - Type : 빌드 도구 (Maven으로 설정)
    - Packaging : Jar
@@ -91,7 +89,6 @@ SNAPSHOT : 개발 진행 중
    - Package : kr.or.iei
 
 3. Dependencies 검색 및 추가 (상단 Spring Framework 3.4.1 선택 &rarr; 새 버전 출시되면 자동 선택되니 참고)
-
    - 기존 레거시에서, pom.xml에 수동으로 추가했던 의존성들중에 자주 사용되는 놈들을 묶어서 편리하게 추가할 수 있도록 제공
 
    - Spring Web (기본 Servlet 기능, 내장 Tomcat)
@@ -106,7 +103,6 @@ SNAPSHOT : 개발 진행 중
    - Mybatis Framework
 
 4. src/main/resources/application.properties에 서버 포트 번호, DB 접속 정보, Mybatis, JSP 설정
-
    - 아래 "#"은 주석이고, 이 파일에는 한글 작성 X
    - 아래 mybatis 설정은 기존처럼 mybatis-config.xml 생성하고 작성해도 되지만, 이 파일에 모아 작성해야 관리적인 측면으로 편함
    - mybatis-config.xml 생성했으면 아래 mybatis.config-location 속성 추가
@@ -189,12 +185,10 @@ spring.servlet.multipart.max-request-size=50MB
   [kocw](http://www.kocw.net/)(분야별 다양한 무료 강의 사이트)
 
 - 구직 사이트
-
   - 국내 : 사람인, 잡코리아, 원티드, 로켓펀치, 슈퍼루키, 자소설닷컴
   - 해외 : LinkedIn, worldjob, peoplenjob (외국계)
 
 - 기업 분석
-
   - [catch](https://www.catch.co.kr/)
   - [fss](https://dart.fss.or.kr/)
   - [wanted](https://insight.wanted.co.kr/)
@@ -203,4 +197,4 @@ spring.servlet.multipart.max-request-size=50MB
 
 ---
 
-### Happy Hacking
+### Happy Hacking 🎉

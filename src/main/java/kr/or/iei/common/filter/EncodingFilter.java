@@ -17,5 +17,4 @@ public class EncodingFilter implements Filter {
         // 2) 지정된 필터가 또 존재할경우, 해당 필터 실행하고 없을 경우 요청 위임
         chain.doFilter(request, response);
     }
-
 }

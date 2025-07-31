@@ -9,12 +9,10 @@ import java.util.ArrayList;
 
 @Service
 public class MemberService {
-
     @Autowired
     private MemberDao dao;
 
     public ArrayList<Member> getList() {
         return dao.getList();
     }
-
 }

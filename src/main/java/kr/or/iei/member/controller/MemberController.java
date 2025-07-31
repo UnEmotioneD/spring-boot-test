@@ -10,7 +10,6 @@ import java.util.ArrayList;
 
 @Controller
 public class MemberController {
-
     @Autowired
     private MemberService service;
 
@@ -23,5 +22,4 @@ public class MemberController {
             System.out.println("member_pw: "+ member.getMemberPw());
         }
     }
-
 }
